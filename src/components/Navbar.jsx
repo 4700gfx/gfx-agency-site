@@ -13,7 +13,7 @@ const Navbar = () => {
   
   return (
     <header>
-      <nav className='flex flex-row justify-around mt-5 text-white bg-black p-6 w-11/12 mx-auto rounded-2xl'>
+      <nav className='flex flex-row justify-around mt-5 text-white bg-black p-6 w-9/12 mx-auto rounded-2xl'>
         <img src={logo} alt='4700-GFX' className='h-12 w-auto object-contain'></img>
         <ul className="flex gap-6 mr-20">
             {Object.entries(navItems).map(([key, { label, id }]) => (

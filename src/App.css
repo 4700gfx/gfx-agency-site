@@ -3,3 +3,12 @@
 body{
   background-color: #6E7075;
 }
+
+
+h1, h2, h3, h4, h5{
+  font-family: "Space Grotesk", sans-serif;
+}
+
+p{
+  font-family: "Montserrat", sans-serif;
+}
